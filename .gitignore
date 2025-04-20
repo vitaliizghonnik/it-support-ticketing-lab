@@ -1,0 +1,62 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VMware and Virtual Machine Files
+*.vmdk
+*.vmx
+*.vmsd
+*.vmxf
+*.vmem
+*.nvram
+*.vmsn
+*.vmss
+*.log
+*.lck
+*.vmware.log
+
+# Screenshots with potentially sensitive info
+*credentials*.png
+*password*.png
+*login*.png
+
+# Configuration files with sensitive information
+*config.json
+*credentials.json
+*secrets.json
+*.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+*-old.*
+
+# Binaries and packages
+*.exe
+*.msi
+*.iso
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Logs and temporary files
+logs/
+temp/
+tmp/
+*.tmp
+*.log
+
+# Local cache of service tools
+.servicenow-cache/
+.jira-cache/
+node_modules/
