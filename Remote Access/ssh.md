@@ -28,24 +28,14 @@ sudo systemctl start ssh
 
 # Check SSH service status
 sudo systemctl status ssh
-
-
-```bash
-# install openssh-server software
-$ sudo apt install openssh-server    
-$ ssh status
-# Enabling and start ssh server
-$ sudo systemctl enable ssh
-$ sudo systemctl start ssh
-$ sudo systemctl status ssh
 ```
-![SSH_status](https://github.com/vitaliizghonnik/it-support-ticketing-lab/blob/main/Remote%20Access/screenshoots/ssh_screenshoots/ssh%20status%20on%20Ubuntu%20VM-1.png)
+![SSH_status](https://github.com/vitaliizghonnik/it-support-ticketing-lab/blob/main/Remote%20Access/screenshots/ssh_screenshots/ssh%20status%20on%20Ubuntu%20VM.png)
 
 ### Step 2: Allow SSH through the UFW
-Enable new firewall rule for the SSH traffic via adding that rule to universal default firewall UFW in Ubuntu
+Enable a new firewall rule for the SSH traffic via adding that rule to the universal default firewall UFW in Ubuntu.
 
 ```bash
-# Allow SSH though firewall
+# Allow SSH through a firewall
 $ sudo ufw allow ssh
 $ sudo ufw status
 # Enable the firewall
@@ -53,11 +43,11 @@ $ sudo ufw enable
 # Check status
 $ sudo ufw status
 ```
-![Firewall_status_UFW](https://github.com/vitaliizghonnik/it-support-ticketing-lab/blob/main/Remote%20Access/screenshoots/adding%20rule%20and%20anable%20ufw.png)
+![Firewall_status_UFW](https://github.com/vitaliizghonnik/it-support-ticketing-lab/blob/main/Remote%20Access/screenshots/ssh_screenshots/adding%20rule%20and%20anable%20ufw.png)
 
-### Step 3: Identife the IP Address of the Server (Ubuntu VM)
-Open CLI and enter the following command:
-`ip a` and look for address initiated by `inet` for instance: 192.168.55.10/24
+### Step 3: Identify the IP Address of the Server (Ubuntu VM)
+Open the CLI and enter the following command:
+`ip a` and look for address initiated by `inet`, for instance: 192.168.55.10/24
 
 ## Setting up SSH Client on Windows 11
 
