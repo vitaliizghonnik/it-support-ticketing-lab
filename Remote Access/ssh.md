@@ -66,3 +66,15 @@ Open CLI and enter the following command:
 ```bash
 ssh username@192.168.55.10
 ```
+3. However instead of using a password for establishing ssh connection, it's better to use a key pair approach, that is more secure authentication approach and commonly used in production environment. 
+
+    - Open `CMD` on a client machine, in this case **Windows 11 Enterprise** and copy the consistence of id_pad by typing the following command:
+    ```bash
+    # Generate a key pair by typing the following command:
+    ssh-keygen
+    # Find the location of the generated key pair:
+    cd .ssh
+    # Copy the key from a id_ed25519.pub file on Client machine (Windows 11) to authorized_key on Server (Ubuntu)
+    ```
+    - Eventually you will be able to establish the ssh connection without providing a password like on the screen below:
+    ![SSH_without_password](https://github.com/vitaliizghonnik/it-support-ticketing-lab/blob/main/Remote%20Access/screenshots/ssh_screenshots/4-ssh_without_pw.png)
