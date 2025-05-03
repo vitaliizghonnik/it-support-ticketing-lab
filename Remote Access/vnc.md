@@ -9,4 +9,4 @@ Similar to the RDP protocol, a VNC connection allows the server machine to stay 
 2. Configure the IP Addresses on the VNC server and the VNC client, as well as the ports (if necessary).
 In my case, I left ports set up by default.
 3. Run VNC Viewer on VNC Client and fill out the field with the name of the VNC Server, followed by a colon and the port number to connect to. 
-![vnc_connection](https://github.com/vitaliizghonnik/it-support-ticketing-lab/blob/main/Remote%20Access/screenshots/vnc_recording/vnc_connection.mkv)
+![vnc_connection](https://github.com/vitaliizghonnik/it-support-ticketing-lab/blob/10399c16a2b10869f2cff5718c77576021ff33ee/Remote%20Access/screenshots/vnc_recording/vnc_recording%20-%20Made%20with%20Clipchamp.mp4)
